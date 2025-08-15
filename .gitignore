@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 # Ignore environment files
 .env
+<<<<<<< HEAD
 
 # Ignore ipynb checkpoints
+=======
+>>>>>>> 00e8465 (Ignore Jupyter checkpoint files)
 .ipynb_checkpoints/
