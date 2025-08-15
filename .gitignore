@@ -6,6 +6,4 @@ __pycache__/
 <<<<<<< HEAD
 
 # Ignore ipynb checkpoints
-=======
->>>>>>> 00e8465 (Ignore Jupyter checkpoint files)
 .ipynb_checkpoints/
