@@ -1,11 +1,32 @@
-# Ignore Python cache files
+# =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore environment files
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
 .env
-<<<<<<< HEAD
+.env.save
 
-# Ignore ipynb checkpoints
+# =========================
+# Jupyter
+# =========================
 .ipynb_checkpoints/
+.virtual_documents/
+
+# =========================
+# OS
+# =========================
+.DS_Store
 
