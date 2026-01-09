@@ -97,3 +97,11 @@ def fetch_yfinance(ticker: str, start: dt.date, end: dt.date) -> pd.DataFrame:
 
     df["date"] = pd.to_datetime(df["date"]).dt.date
     return df[expected]
+
+def get_alpha_vantage_key(env_var: str = "API_KEY") -> str:
+    key = os.getenv(env_var, "").strip()
+    if not key:
+        raise EnvironmentError(
+            f"Missing AlphaVantage key. Set environment variable {env_var} in your .env or shell."
+        )
+    return key
